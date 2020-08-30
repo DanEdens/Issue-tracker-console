@@ -30,7 +30,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace up_console
+namespace Issue_tracker_console
 {
     /// <summary>
     /// Helper class to call a protected API and process its result

@@ -30,7 +30,7 @@ using System.Net.Http;
 using System.Security;
 using System.Threading.Tasks;
 
-namespace up_console
+namespace Issue_tracker_console
 {
     public class MyInformation
     {

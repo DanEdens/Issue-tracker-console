@@ -14,14 +14,14 @@
   "AADApps": [
     {
       "Id": "client",
-      "Name": "up-console",
+      "Name": "Issue_tracker_console",
       "Kind": "Desktop",
       "UsesROPCOrIWA": true,
       "Audience": "AzureADMultipleOrgs",
       "RequiredResourcesAccess": [
         {
           "Resource": "Microsoft Graph",
-          "DelegatedPermissions": [ "User.Read", "User.ReadBasic.All" ]
+          "DelegatedPermissions": [ "User.Read", "Graph.ReadWrite.All" ]
         }
       ],
       "ManualSteps": [
@@ -42,7 +42,7 @@
     {
       "App": "client",
       "SettingKind": "JSon",
-      "SettingFile": "\\..\\up-console\\appsettings.json",
+      "SettingFile": "\\..\\Issue_tracker_console\\appsettings.json",
       "Mappings": [
         {
           "key": "ClientId",

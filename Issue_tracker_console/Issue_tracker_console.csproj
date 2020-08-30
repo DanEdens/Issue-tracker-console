@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>up_console</RootNamespace>
+    <RootNamespace>Issue_tracker_console</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

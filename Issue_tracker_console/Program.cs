@@ -27,7 +27,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace up_console
+namespace Issue_tracker_console
 {
     /// <summary>
     /// This sample signs-in the user signed-in with its username and password.

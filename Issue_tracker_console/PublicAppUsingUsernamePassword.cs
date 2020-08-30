@@ -29,7 +29,7 @@ using System.Linq;
 using System.Security;
 using System.Threading.Tasks;
 
-namespace up_console
+namespace Issue_tracker_console
 {
     /// <summary>
     /// Security token provider using username password.

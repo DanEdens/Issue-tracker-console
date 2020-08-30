@@ -122,12 +122,12 @@ As a first step you'll need to:
 1. If your account is present in more than one Azure AD tenant, select your profile at the top right corner in the menu on top of the page, and then **switch directory**.
    Change your portal session to the desired Azure AD tenant.
 
-#### Register the client app (up-console)
+#### Register the client app (Issue_tracker_console)
 
 1. Navigate to the Microsoft identity platform for developers [App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) page.
 1. Select **New registration**.
 1. In the **Register an application page** that appears, enter your application's registration information:
-   - In the **Name** section, enter a meaningful application name that will be displayed to users of the app, for example `up-console`.
+   - In the **Name** section, enter a meaningful application name that will be displayed to users of the app, for example `Issue_tracker_console`.
    - Under **Supported account types**, select **Accounts in any organizational directory**.
 1. Select **Register** to create the application.
 1. In the app's registration screen, find and note the **Application (client) ID**. You use this value in your app's configuration file(s) later in your code.
@@ -152,8 +152,8 @@ As a first step you'll need to:
 Open the project in your IDE (like Visual Studio) to configure the code.
 >In the steps below, "ClientID" is the same as "Application ID" or "AppId".
 
-1. Open the `up-console\appsettings.json` file
-1. Find the app key `ClientId` and replace the existing value with the application ID (clientId) of the `up-console` application copied from the Azure portal.
+1. Open the `Issue_tracker_console\appsettings.json` file
+1. Find the app key `ClientId` and replace the existing value with the application ID (clientId) of the `Issue_tracker_console` application copied from the Azure portal.
 
 ### Step 4: Run the sample
 
